@@ -1,3 +1,4 @@
+from multiprocessing import Pool
 def batch_backup(inventory_file='inventory.xlsx'):
     print("----批量配置备份开始----")
 
