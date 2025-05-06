@@ -1,0 +1,5 @@
+interface GigabitEthernet 1/0/1
+description descby_send_config_from_file()
+quit
+interface GigabitEthernet 1/0/2
+description descby_send_config_from_file()
