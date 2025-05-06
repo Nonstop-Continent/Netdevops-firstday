@@ -1,0 +1,11 @@
+Value Required VLAN_ID (\d+)
+Value Required VLAN_NAME (\S+)
+Value STATUS (\w+)
+Value PORTS (.*)
+
+Start
+  # Skip header lines and separator line
+  ^VLAN\s+ID\s+Name.* -> Continue
+  ^-+ -> Continue
+  # Match data lines
+  ^\s*${VLAN_ID}\s+${VLAN_NAME}\s+${STATUS}\s+${PORTS}\s*$$ -> Record
