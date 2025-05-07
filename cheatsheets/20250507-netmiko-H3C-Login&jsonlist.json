@@ -1,0 +1,56 @@
+[
+  {
+    "name": "S6850_1",
+    "connection": {
+       "device_type": "hp_comware",
+          "host": "11.0.0.1",
+          "username": "netops",
+          "password": "Admin@1234"
+    }
+  },
+  {
+    "name": "S6850_2",
+    "connection": {
+       "device_type": "hp_comware",
+          "host": "11.0.0.2",
+          "username": "netops",
+          "password": "Admin@1234"
+    }
+  },
+  {
+    "name": "S6850_3",
+    "connection": {
+       "device_type": "hp_comware",
+          "host": "11.0.0.3",
+          "username": "netops",
+          "password": "Admin@1234"
+    }
+  },
+  {
+    "name": "S6850_4",
+    "connection": {
+       "device_type": "hp_comware",
+          "host": "11.0.0.4",
+          "username": "netops",
+          "password": "Admin@1234"
+    }
+  },
+  {
+    "name": "S6850_5",
+    "connection": {
+       "device_type": "hp_comware",
+          "host": "11.0.0.5",
+          "username": "netops",
+          "password": "Admin@1234"
+    }
+  },
+  {
+    "name": "S6850_6",
+    "connection": {
+       "device_type": "hp_comware",
+          "host": "11.0.0.8",
+          "username": "netops",
+          "password": "Admin@1234"
+    }
+  }
+]
