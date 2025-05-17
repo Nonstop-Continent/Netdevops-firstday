@@ -3,6 +3,7 @@ import time
 import os
 from getpass import getpass
 
+'''
 # 检查文件系统中是否存在名为"ip_list.txt"的文件，并打印结果
 print(os.path.isfile("ip_list.txt"))
 
@@ -45,4 +46,3 @@ for ip in f.readlines():
 
 f.close()
 ssh_client.close()
-'''
